@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <ListPreference
+        android:defaultValue="@string/politics"
+        android:dialogTitle="@string/select_content"
+        android:entries="@array/content_entries"
+        android:entryValues="@array/content_entry_values"
+        android:key="@string/content_key"
+        android:title="@string/select_content" />
+
+</PreferenceScreen>
